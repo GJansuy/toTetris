@@ -21,9 +21,9 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 352 288 520 304)
+	(rect 336 288 504 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[0]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[0]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -37,9 +37,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 304 520 320)
+	(rect 336 304 504 320)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[1]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[1]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -53,9 +53,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 320 520 336)
+	(rect 336 320 504 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[2]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[2]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 336 520 352)
+	(rect 336 336 504 352)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[3]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[3]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -85,9 +85,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 352 520 368)
+	(rect 336 352 504 368)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[4]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[4]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -101,9 +101,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 368 520 384)
+	(rect 336 368 504 384)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[5]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[5]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -117,9 +117,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 384 520 400)
+	(rect 336 384 504 400)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[6]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[6]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -133,25 +133,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 352 400 520 416)
+	(rect 336 416 504 432)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[7]" (rect 5 0 27 17)(font "Intel Clear" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 352 416 520 432)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[8]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[8]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -167,7 +151,23 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 336 432 504 448)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[9]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[9]" (rect 5 0 26 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 336 400 504 416)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in[7]" (rect 5 0 27 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -325,6 +325,42 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 512 456)
 	(pt 512 472)
+)
+(connector
+	(pt 520 296)
+	(pt 504 296)
+)
+(connector
+	(pt 520 312)
+	(pt 504 312)
+)
+(connector
+	(pt 520 328)
+	(pt 504 328)
+)
+(connector
+	(pt 520 344)
+	(pt 504 344)
+)
+(connector
+	(pt 520 360)
+	(pt 504 360)
+)
+(connector
+	(pt 520 376)
+	(pt 504 376)
+)
+(connector
+	(pt 520 392)
+	(pt 504 392)
+)
+(connector
+	(pt 520 408)
+	(pt 504 408)
+)
+(connector
+	(pt 520 424)
+	(pt 504 424)
 )
 (junction (pt 512 456))
 (junction (pt 512 440))

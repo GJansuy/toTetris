@@ -66,4 +66,10 @@ And for some reason pressing Tab will immediately put the current entry into the
 
 Quartus automatically connecting wires is starting to really piss me off. Doing huge drags of wires is impractical as a random join may end up somewhere if you happen to cross a : Corner, Input, Output, or an already joined section. It's driving me insane.
 
+OH. MY. GOD. QUARTUS PRIME WAVEFORM GENERATOR THING WON'T WORK IF I RENAME THE FILE ON SAVE. WHAT? IT WON'T EVEN USE THE NEW NAME WHEN I REGENERATE THE TESTBENCH. WHY WHY WHYY
+
+Quartus crashed again....
+
+For some reason 2 of my flip flops are triggering, not only OFF CLOCK, but also without any apparent source in the waveform? What? Why? Where is it even getting the signal to shift? Why doesn't this error occur in the schematic that is very similar? Why is it only these 2 flip flops? WHY . 
+
 
