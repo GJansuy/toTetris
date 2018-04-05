@@ -2088,5 +2088,5 @@ refer to the applicable agreement for further details.
 (junction (pt 1168 368))
 (junction (pt 1008 504))
 (junction (pt 1184 488))
-(text "Verilog would have been easier to do, but here we are." (rect 152 216 470 235)(font "Intel Clear" (font_size 8)))
+(text "Verilog would have been easier to do, but here we are." (rect 200 160 518 179)(font "Intel Clear" (font_size 8)))
 (text "Horizontal Sync occurs Once (1) per line BETWEEN the Front and Back porches of a line" (rect 56 40 565 59)(font "Intel Clear" (font_size 8)))
