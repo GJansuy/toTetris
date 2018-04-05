@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 528 -72 704 -56)
+	(rect 216 64 392 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "vgaClock" (rect 90 0 137 12)(font "Arial" ))
 	(pt 0 8)
@@ -53,7 +53,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 888 8 1064 24)
+	(rect 656 -88 832 -72)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "syncHorizontal" (rect 90 0 163 12)(font "Arial" ))
 	(pt 0 8)
@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 888 56 1064 72)
+	(rect 616 -160 792 -144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "syncVertical" (rect 90 0 151 12)(font "Arial" ))
 	(pt 0 8)
@@ -276,7 +276,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 792 -80 824 -64)
+	(rect 792 -48 824 -32)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 5 20 17)(font "Arial" )(invisible))
 	(port
@@ -685,7 +685,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 832 0 880 32)
+	(rect 600 -96 648 -64)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst14" (rect 3 21 31 38)(font "Intel Clear" ))
 	(port
@@ -710,7 +710,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 832 48 880 80)
+	(rect 560 -168 608 -136)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst15" (rect 3 21 31 38)(font "Intel Clear" ))
 	(port
@@ -806,6 +806,56 @@ refer to the applicable agreement for further details.
 		(line (pt 8 8)(pt 16 16))
 		(line (pt 16 16)(pt 24 8))
 		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 376 -112 544 16)
+	(text "counterHorizontalSync" (rect 5 0 137 19)(font "Intel Clear" (font_size 8)))
+	(text "inst17" (rect 8 107 36 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Clock" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "Clock" (rect 21 27 52 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Clear" (rect 0 0 30 19)(font "Intel Clear" (font_size 8)))
+		(text "Clear" (rect 21 43 51 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "outSync" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "outSync" (rect 100 27 147 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "outBackPorch" (rect 0 0 80 19)(font "Intel Clear" (font_size 8)))
+		(text "outBackPorch" (rect 67 43 147 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "outVideo" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
+		(text "outVideo" (rect 94 59 147 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 64)(pt 152 64))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "outFrontPorch" (rect 0 0 82 19)(font "Intel Clear" (font_size 8)))
+		(text "outFrontPorch" (rect 65 75 147 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 80)(pt 152 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 112))
 	)
 )
 (connector
@@ -1001,14 +1051,6 @@ refer to the applicable agreement for further details.
 	(pt 168 -48)
 )
 (connector
-	(pt 888 16)
-	(pt 880 16)
-)
-(connector
-	(pt 888 64)
-	(pt 880 64)
-)
-(connector
 	(pt 504 112)
 	(pt 520 112)
 )
@@ -1021,28 +1063,8 @@ refer to the applicable agreement for further details.
 	(pt 504 16)
 )
 (connector
-	(pt 808 -64)
-	(pt 808 16)
-)
-(connector
-	(pt 808 16)
-	(pt 808 128)
-)
-(connector
-	(pt 672 104)
-	(pt 672 112)
-)
-(connector
 	(pt 672 112)
 	(pt 648 112)
-)
-(connector
-	(pt 648 144)
-	(pt 672 144)
-)
-(connector
-	(pt 720 128)
-	(pt 648 128)
 )
 (connector
 	(pt 880 248)
@@ -1075,10 +1097,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 760 200)
 	(pt 760 248)
-)
-(connector
-	(pt 720 128)
-	(pt 720 304)
 )
 (connector
 	(pt 720 304)
@@ -1149,10 +1167,6 @@ refer to the applicable agreement for further details.
 	(pt 792 552)
 )
 (connector
-	(pt 672 144)
-	(pt 672 472)
-)
-(connector
 	(pt 520 128)
 	(pt 504 128)
 )
@@ -1167,6 +1181,54 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 504 144)
 	(pt 504 224)
+)
+(connector
+	(pt 808 -32)
+	(pt 808 16)
+)
+(connector
+	(pt 808 16)
+	(pt 808 128)
+)
+(connector
+	(pt 656 -80)
+	(pt 648 -80)
+)
+(connector
+	(pt 544 -80)
+	(pt 600 -80)
+)
+(connector
+	(pt 616 -152)
+	(pt 608 -152)
+)
+(connector
+	(pt 672 160)
+	(pt 672 472)
+)
+(connector
+	(pt 672 160)
+	(pt 648 160)
+)
+(connector
+	(pt 720 144)
+	(pt 720 304)
+)
+(connector
+	(pt 720 144)
+	(pt 648 144)
+)
+(connector
+	(pt 672 128)
+	(pt 648 128)
+)
+(connector
+	(pt 672 104)
+	(pt 672 112)
+)
+(connector
+	(pt 672 112)
+	(pt 672 128)
 )
 (junction (pt 808 176))
 (junction (pt 808 224))
@@ -1190,8 +1252,10 @@ refer to the applicable agreement for further details.
 (junction (pt 792 600))
 (junction (pt 792 504))
 (junction (pt 504 144))
+(junction (pt 672 112))
 (text "Expecting 50 MHz signal," (rect -32 -72 109 -58)(font "Arial" (font_size 8)))
 (text "Output the determined color" (rect 896 96 1052 110)(font "Arial" (font_size 8)))
-(text "Horizontal Counter" (rect 328 24 433 38)(font "Arial" (font_size 8)))
+(text "Horizontal Counter" (rect 152 112 257 126)(font "Arial" (font_size 8)))
 (text "Vertical Counter" (rect 328 272 420 286)(font "Arial" (font_size 8)))
-(text "Syncs are kept high and drained to 0 to create the Front and Back Porches" (rect 896 -32 1333 -13)(font "Intel Clear" (font_size 8)))
+(text "Syncs are Negative polarity at 640x480" (rect 576 -128 813 -109)(font "Intel Clear" (font_size 8)))
+(text "Default to printing Red for Debugging" (rect 568 64 791 83)(font "Intel Clear" (font_size 8)))

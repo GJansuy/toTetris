@@ -115,6 +115,22 @@ refer to the applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 408 864 584 880)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "newLine" (rect 90 0 128 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 408 232 528 456)
 	(text "counter10bit" (rect 5 0 81 19)(font "Intel Clear" (font_size 8)))
@@ -1561,18 +1577,6 @@ refer to the applicable agreement for further details.
 	(pt 824 584)
 )
 (connector
-	(pt 392 264)
-	(pt 392 952)
-)
-(connector
-	(pt 376 264)
-	(pt 392 264)
-)
-(connector
-	(pt 392 264)
-	(pt 408 264)
-)
-(connector
 	(pt 512 720)
 	(pt 640 720)
 )
@@ -1799,10 +1803,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 400 192)
 	(pt 400 280)
-)
-(connector
-	(pt 400 280)
-	(pt 400 816)
 )
 (connector
 	(pt 544 104)
@@ -2044,7 +2044,22 @@ refer to the applicable agreement for further details.
 	(pt 1016 72)
 	(pt 1016 312)
 )
-(junction (pt 392 264))
+(connector
+	(pt 376 264)
+	(pt 408 264)
+)
+(connector
+	(pt 400 872)
+	(pt 408 872)
+)
+(connector
+	(pt 400 280)
+	(pt 400 816)
+)
+(connector
+	(pt 400 816)
+	(pt 400 872)
+)
 (junction (pt 544 264))
 (junction (pt 560 280))
 (junction (pt 576 296))
@@ -2088,5 +2103,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1168 368))
 (junction (pt 1008 504))
 (junction (pt 1184 488))
+(junction (pt 400 816))
 (text "Verilog would have been easier to do, but here we are." (rect 200 160 518 179)(font "Intel Clear" (font_size 8)))
 (text "Horizontal Sync occurs Once (1) per line BETWEEN the Front and Back porches of a line" (rect 56 40 565 59)(font "Intel Clear" (font_size 8)))
