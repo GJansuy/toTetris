@@ -59,5 +59,11 @@ If the PDF renderer in my browser crashes, it's bad times.
 
 Quartus Prime has this new sidebar called IP Catalog, which I think holds a bunch of prebuilt schematics/verilog files. I feel like using that would be cheating, so I'm going to ignore it for now.
 
+Assigning Pins in Quartus Prime 17 doesn't immediately go to the following line when you press enter.
+Making it incredibly tedious to assign a lot of pins at once.
+Hell, it doesn't even respond to arrow keys well, jumping back to the top after every entry.
+And for some reason pressing Tab will immediately put the current entry into the NEXT line, without even formatting the line. Causing more trouble, as you have to delete that entry before you can assign that pin to the intended entry.
+
+Quartus automatically connecting wires is starting to really piss me off. Doing huge drags of wires is impractical as a random join may end up somewhere if you happen to cross a : Corner, Input, Output, or an already joined section. It's driving me insane.
 
 

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F23C7
-set_global_assignment -name TOP_LEVEL_ENTITY toTetris
+set_global_assignment -name TOP_LEVEL_ENTITY vgaController
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:03:13  MARCH 29, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
@@ -51,11 +51,33 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name BDF_FILE toTetris.bdf
 set_global_assignment -name BDF_FILE vgaController.bdf
 set_global_assignment -name VERILOG_FILE clock50HzTo25MHz.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name BDF_FILE mux1to4.bdf
 set_global_assignment -name BDF_FILE counter10bit.bdf
 set_global_assignment -name BDF_FILE counterHorizontalSync.bdf
 set_global_assignment -name BDF_FILE and10.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE counterVerticalSync.bdf
+set_location_assignment PIN_B6 -to blue0
+set_location_assignment PIN_B7 -to blue1
+set_location_assignment PIN_A8 -to blue2
+set_location_assignment PIN_M9 -to globalClock
+set_location_assignment PIN_A7 -to blue3
+set_location_assignment PIN_L7 -to green0
+set_location_assignment PIN_J7 -to green2
+set_location_assignment PIN_K7 -to green1
+set_location_assignment PIN_J8 -to green3
+set_location_assignment PIN_H8 -to syncHorizontal
+set_location_assignment PIN_G8 -to syncVertical
+set_location_assignment PIN_A9 -to red0
+set_location_assignment PIN_B10 -to red1
+set_location_assignment PIN_C9 -to red2
+set_location_assignment PIN_A5 -to red3
+set_location_assignment PIN_M6 -to Reset
+set_location_assignment PIN_AA2 -to debugClock
+set_location_assignment PIN_AA1 -to debugSyncH
+set_location_assignment PIN_W2 -to debugSyncV
+set_global_assignment -name QIP_FILE testPLL.qip
+set_global_assignment -name SIP_FILE testPLL.sip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

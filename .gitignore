@@ -2,3 +2,9 @@
 *.flock
 *.db_info
 *.qws
+*.logdb
+*.sig
+db/*
+output_files/*
+simulation/*
+incremental_db/*
