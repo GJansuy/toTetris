@@ -1,0 +1,63 @@
+VGA Controller
+
+    Assumptions:
+        I'll be working exclusively with a 640x480 area. Potentially a 
+    
+    Useful Links:
+
+        The DE0-CV manual actually has a handy chart as well for VGA mode under the VGA section.
+    https://www.altera.com/content/dam/altera-www/global/en_US/portal/dsn/42/doc-us-dsnbk-42-1504012210-de0-cv-user-manual.pdf
+            
+        Digilent explanation of VGA. 
+        + Has a useful table of microseconds for the spec.
+        https://learn.digilentinc.com/Documents/269
+
+        This page also has a great chart for the VGA spec.
+        https://eewiki.net/pages/viewpage.action?pageId=15925278
+        
+        Additional Timing information, truly useful
+        http://tinyvga.com/vga-timing/640x480@60Hz
+        
+        Slide 29 has a great diagram
+        http://www.eng.ucy.ac.cy/theocharides/Courses/ECE664/VGA.pdf
+        
+
+    For a 640 x 480 display area, I see a lot of information stating to use a 25.175 MHZ clock
+    
+
+SDRAM Controller
+
+    In theory, this would be ideal for this usage. Storing a grid and quickly accessing the data.
+    However, for the usage here, it may be easier/faster to just implement a fixed latch grid.
+    
+    I'll mark it down as a nice to have.
+
+    
+[ Regrets and Ramblings]
+
+Quartus.... Oh my god, I can't even compile the VGA demonstration for the DE0-CV.
+It seems that it cannot find a pll library file definition, uhh. 
+
+Maybe reinstalling for the 4th time will do it. . . . Nah. Let's try using Quartus 17.0 lite instead
+The documentation and community for Quartus so far has been extremely lacking. 
+Maybe there's a manual database somewhere, or I'm using incorrect terminology,
+but it's impossible to find quick answers for things at the moment. 
+
+Downloading Quartus sucks. Takes forever across too many files. 
+
+I sure do hope VCC and GND don't screw me later, I don't know what voltage VCC is, or where to set it, sooooo.
+
+Dope, the demo compiled on Quartus prime 17.1 lite. 
+
+
+Alright, it looks like Quartus Prime is showing the MegaWizard dialogues now. Looking at the configuration of one of snake FPGA sources, they seem to be using 50% duty at 25MHz to drive the VGA controller, and snake game on the side.
+
+I'm not sure how important a Phase Locked Loop is at the moment. I have the 50mhzto1mhz verilog script from Lab10, I think I can use that generate my signal.
+
+Why is every search, file, link, or document that is associated with Quartus a friggin' PDF. It's always a PDF. My downloads folder is filled with a dozen PDF's while the tabs are all blanked, because it decided to download rather than display. I'm glad to have the information at least, but I can't bookmark or easily access these PDF's.
+If the PDF renderer in my browser crashes, it's bad times.
+
+Quartus Prime has this new sidebar called IP Catalog, which I think holds a bunch of prebuilt schematics/verilog files. I feel like using that would be cheating, so I'm going to ignore it for now.
+
+
+
