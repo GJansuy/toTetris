@@ -73,3 +73,7 @@ Quartus crashed again....
 For some reason 2 of my flip flops are triggering, not only OFF CLOCK, but also without any apparent source in the waveform? What? Why? Where is it even getting the signal to shift? Why doesn't this error occur in the schematic that is very similar? Why is it only these 2 flip flops? WHY . 
 
 I've gone so far down the rabbithole, minimizing the vertical sync counter at much as I can.... It's ....  getting weird.
+
+
+Hey, I got a half red screen to display! Too bad I don't know why it's only half red....
+
