@@ -1,0 +1,92 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 216 224)
+	(text "colorCellUnit" (rect 5 0 80 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "inRed" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "inRed" (rect 21 27 55 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "inGreen" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "inGreen" (rect 21 43 67 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "inBlue" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "inBlue" (rect 21 59 57 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 40 160)
+		(input)
+		(text "Clock" (rect 32 109 51 140)(font "Intel Clear" (font_size 8))(vertical))
+		(text "Clock" (rect 32 104 51 135)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 40 160)(pt 40 144))
+	)
+	(port
+		(pt 56 160)
+		(input)
+		(text "Clear" (rect 64 109 83 139)(font "Intel Clear" (font_size 8))(vertical))
+		(text "Clear" (rect 48 104 67 134)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 56 160)(pt 56 144))
+	)
+	(port
+		(pt 112 160)
+		(input)
+		(text "Enable" (rect 104 109 123 149)(font "Intel Clear" (font_size 8))(vertical))
+		(text "Enable" (rect 104 96 123 136)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 112 160)(pt 112 144))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "outRed" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "outRed" (rect 89 27 131 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "outGreen" (rect 0 0 54 19)(font "Intel Clear" (font_size 8)))
+		(text "outGreen" (rect 77 43 131 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 48)(pt 136 48))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "outBlue" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "outBlue" (rect 87 59 131 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 144))
+	)
+)
