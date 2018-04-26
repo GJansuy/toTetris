@@ -48,13 +48,6 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
-set_global_assignment -name BDF_FILE toTetris.bdf
-set_global_assignment -name BDF_FILE vgaController.bdf
-set_global_assignment -name VERILOG_FILE clock50HzTo25MHz.v
-set_global_assignment -name BDF_FILE mux1to4.bdf
-set_global_assignment -name BDF_FILE counter10bit.bdf
-set_global_assignment -name BDF_FILE counterHorizontalSync.bdf
-set_global_assignment -name BDF_FILE counterVerticalSync.bdf
 set_location_assignment PIN_M9 -to globalClock
 set_location_assignment PIN_H8 -to syncHorizontal
 set_location_assignment PIN_G8 -to syncVertical
@@ -62,20 +55,12 @@ set_location_assignment PIN_M6 -to Reset
 set_location_assignment PIN_AA2 -to debugClock
 set_location_assignment PIN_AA1 -to debugSyncH
 set_location_assignment PIN_W2 -to debugSyncV
-set_global_assignment -name QIP_FILE testPLL.qip
-set_global_assignment -name SIP_FILE testPLL.sip
-set_global_assignment -name BDF_FILE myAnd10.bdf
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name BDF_FILE bufferColor.bdf
-set_global_assignment -name BDF_FILE colorController.bdf
 set_location_assignment PIN_A7 -to blue[3]
 set_location_assignment PIN_A8 -to blue[2]
 set_location_assignment PIN_B7 -to blue[1]
@@ -88,7 +73,38 @@ set_location_assignment PIN_A5 -to red[3]
 set_location_assignment PIN_C9 -to red[2]
 set_location_assignment PIN_B10 -to red[1]
 set_location_assignment PIN_A9 -to red[0]
+set_global_assignment -name BDF_FILE Userblock.bdf
+set_global_assignment -name BDF_FILE threeonedemux.bdf
+set_global_assignment -name BDF_FILE ReverseCounter.bdf
+set_global_assignment -name BDF_FILE OR20.bdf
+set_global_assignment -name BDF_FILE MyMux.bdf
+set_global_assignment -name BDF_FILE fouronemux.bdf
+set_global_assignment -name BDF_FILE Demux32.bdf
+set_global_assignment -name BDF_FILE Demux.bdf
+set_global_assignment -name BDF_FILE counter5bit.bdf
+set_global_assignment -name BDF_FILE Collisiondetection.bdf
+set_global_assignment -name BDF_FILE SmallGameBoard.bdf
+set_global_assignment -name BDF_FILE GameBoard.bdf
+set_global_assignment -name BSF_FILE Row.bsf
+set_global_assignment -name BDF_FILE Row.bdf
+set_global_assignment -name BDF_FILE toTetris.bdf
+set_global_assignment -name BDF_FILE vgaController.bdf
+set_global_assignment -name VERILOG_FILE clock50HzTo25MHz.v
+set_global_assignment -name BDF_FILE mux1to4.bdf
+set_global_assignment -name BDF_FILE counter10bit.bdf
+set_global_assignment -name BDF_FILE counterHorizontalSync.bdf
+set_global_assignment -name BDF_FILE counterVerticalSync.bdf
+set_global_assignment -name QIP_FILE testPLL.qip
+set_global_assignment -name SIP_FILE testPLL.sip
+set_global_assignment -name BDF_FILE myAnd10.bdf
+set_global_assignment -name BDF_FILE bufferColor.bdf
+set_global_assignment -name BDF_FILE colorController.bdf
 set_global_assignment -name BDF_FILE colorCellUnit.bdf
 set_global_assignment -name BDF_FILE colorCellRow.bdf
 set_global_assignment -name BDF_FILE myLatch.bdf
+set_global_assignment -name BDF_FILE RowBuffer.bdf
+set_global_assignment -name BDF_FILE userGridCell.bdf
+set_global_assignment -name BDF_FILE userGrid.bdf
+set_global_assignment -name BDF_FILE and24or.bdf
+set_global_assignment -name BDF_FILE tri10.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
