@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F23C7
-set_global_assignment -name TOP_LEVEL_ENTITY vgaController
+set_global_assignment -name TOP_LEVEL_ENTITY GameLogic
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:03:13  MARCH 29, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.1 Lite Edition"
@@ -58,9 +58,6 @@ set_location_assignment PIN_W2 -to debugSyncV
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_A7 -to blue[3]
 set_location_assignment PIN_A8 -to blue[2]
 set_location_assignment PIN_B7 -to blue[1]
@@ -107,4 +104,10 @@ set_global_assignment -name BDF_FILE userGridCell.bdf
 set_global_assignment -name BDF_FILE userGrid.bdf
 set_global_assignment -name BDF_FILE and24or.bdf
 set_global_assignment -name BDF_FILE tri10.bdf
+set_global_assignment -name BDF_FILE myOr10.bdf
+set_global_assignment -name BDF_FILE myOr20.bdf
+set_global_assignment -name BDF_FILE GameLogic.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
