@@ -70,6 +70,11 @@ set_location_assignment PIN_A5 -to red[3]
 set_location_assignment PIN_C9 -to red[2]
 set_location_assignment PIN_B10 -to red[1]
 set_location_assignment PIN_A9 -to red[0]
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE 5bitRegister.bdf
 set_global_assignment -name BDF_FILE Userblock.bdf
 set_global_assignment -name BDF_FILE threeonedemux.bdf
 set_global_assignment -name BDF_FILE ReverseCounter.bdf
@@ -107,13 +112,19 @@ set_global_assignment -name BDF_FILE tri10.bdf
 set_global_assignment -name BDF_FILE myOr10.bdf
 set_global_assignment -name BDF_FILE myOr20.bdf
 set_global_assignment -name BDF_FILE GameLogic.bdf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name BDF_FILE userX.bdf
 set_global_assignment -name BDF_FILE mux2to1.bdf
 set_global_assignment -name BDF_FILE mux4to1.bdf
 set_global_assignment -name BDF_FILE fullAddr.bdf
 set_global_assignment -name BDF_FILE shiftRow.bdf
 set_global_assignment -name BDF_FILE Row12.bdf
+set_global_assignment -name BDF_FILE counterCompare.bdf
+set_global_assignment -name BDF_FILE math5bitSub1.bdf
+set_global_assignment -name BDF_FILE constUserYTop.bdf
+set_global_assignment -name BDF_FILE compare5bit.bdf
+set_global_assignment -name BDF_FILE math5bitAdd1.bdf
+set_global_assignment -name BDF_FILE register5Bit.bdf
+set_global_assignment -name BDF_FILE counterRegister.bdf
+set_global_assignment -name BDF_FILE rowMerger.bdf
+set_global_assignment -name QIP_FILE gameClock.qip
+set_global_assignment -name SIP_FILE gameClock.sip

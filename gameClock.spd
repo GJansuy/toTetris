@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="gameClock_sim/gameClock.vo" type="VERILOG" />
+ <topLevel name="gameClock" />
+ <deviceFamily name="cyclonev" />
+</simPackage>
