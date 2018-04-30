@@ -94,20 +94,6 @@ refer to the applicable agreement for further details.
 		(line (pt 0 184)(pt 16 184))
 	)
 	(port
-		(pt 0 256)
-		(input)
-		(text "Clock" (rect 0 8 31 27)(font "Intel Clear" (font_size 8)))
-		(text "Clock" (rect 24 248 55 267)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 256)(pt 16 256))
-	)
-	(port
-		(pt 0 272)
-		(input)
-		(text "Clear" (rect 0 8 30 27)(font "Intel Clear" (font_size 8)))
-		(text "Clear" (rect 24 264 54 283)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 272)(pt 16 272))
-	)
-	(port
 		(pt 232 40)
 		(input)
 		(text "boardIn[0]" (rect 181 32 244 51)(font "Intel Clear" (font_size 8)))

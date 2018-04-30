@@ -121,10 +121,12 @@ set_global_assignment -name BDF_FILE Row12.bdf
 set_global_assignment -name BDF_FILE counterCompare.bdf
 set_global_assignment -name BDF_FILE math5bitSub1.bdf
 set_global_assignment -name BDF_FILE constUserYTop.bdf
-set_global_assignment -name BDF_FILE compare5bit.bdf
 set_global_assignment -name BDF_FILE math5bitAdd1.bdf
 set_global_assignment -name BDF_FILE register5Bit.bdf
 set_global_assignment -name BDF_FILE counterRegister.bdf
 set_global_assignment -name BDF_FILE rowMerger.bdf
 set_global_assignment -name QIP_FILE gameClock.qip
 set_global_assignment -name SIP_FILE gameClock.sip
+set_global_assignment -name BDF_FILE merger5Bit.bdf
+set_global_assignment -name BDF_FILE tri5.bdf
+set_global_assignment -name BDF_FILE compare5Bit.bdf
