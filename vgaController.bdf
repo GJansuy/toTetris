@@ -925,7 +925,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1048 160 1080 176)
+	(rect 1048 120 1080 136)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 5 25 22)(font "Intel Clear" )(invisible))
 	(port
@@ -938,38 +938,6 @@ refer to the applicable agreement for further details.
 	(drawing
 		(line (pt 8 8)(pt 24 8))
 	)
-)
-(symbol
-	(rect 1048 184 1080 232)
-	(text "TRI" (rect 0 1 10 16)(font "Arial" (font_size 6))(vertical))
-	(text "inst3" (rect 21 3 38 25)(font "Intel Clear" )(vertical))
-	(port
-		(pt 16 0)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 7 2 19 13)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 16 0)(pt 16 14))
-	)
-	(port
-		(pt 0 24)
-		(input)
-		(text "OE" (rect 26 0 37 12)(font "Courier New" (bold))(invisible))
-		(text "OE" (rect 0 26 12 37)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 12 24)(pt 0 24))
-	)
-	(port
-		(pt 16 48)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 7 32 19 49)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 16 32)(pt 16 48))
-	)
-	(drawing
-		(line (pt 25 14)(pt 7 14))
-		(line (pt 25 14)(pt 16 32))
-		(line (pt 7 14)(pt 16 32))
-	)
-	(flipy_rotate90)
 )
 (symbol
 	(rect 96 248 216 472)
@@ -1787,14 +1755,14 @@ refer to the applicable agreement for further details.
 		(pt 160 72)
 		(output)
 		(text "outclk_0" (rect 0 0 47 14)(font "Arial" (font_size 8)))
-		(text "outclk_0" (rect 117 61 156 75)(font "Arial" (font_size 8)))
+		(text "outclk_0" (rect 117 61 164 75)(font "Arial" (font_size 8)))
 		(line (pt 160 72)(pt 112 72))
 	)
 	(port
 		(pt 160 112)
 		(output)
 		(text "locked" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "locked" (rect 127 101 157 115)(font "Arial" (font_size 8)))
+		(text "locked" (rect 127 101 163 115)(font "Arial" (font_size 8)))
 		(line (pt 160 112)(pt 112 112))
 	)
 	(drawing
@@ -1824,6 +1792,39 @@ refer to the applicable agreement for further details.
 		(line (pt 0 144)(pt 160 144))
 		(line (pt 0 0)(pt 0 144))
 	)
+)
+(symbol
+	(rect 1048 168 1096 232)
+	(text "AND2" (rect 38 1 48 25)(font "Arial" (font_size 6))(vertical))
+	(text "tiredofthis" (rect -6 3 11 50)(font "Intel Clear" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 41 19)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 32 0)(pt 32 14))
+	)
+	(port
+		(pt 16 0)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 13 2 25 19)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 0)(pt 16 14))
+	)
+	(port
+		(pt 24 64)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 21 48 33 65)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 42)(pt 24 64))
+	)
+	(drawing
+		(line (pt 36 14)(pt 36 30))
+		(line (pt 11 14)(pt 11 31))
+		(line (pt 36 14)(pt 11 14))
+		(arc (pt 11 31)(pt 36 30)(rect 11 18 36 43))
+	)
+	(rotate270)
 )
 (connector
 	(pt 528 16)
@@ -2322,14 +2323,6 @@ refer to the applicable agreement for further details.
 	(pt 1200 240)
 )
 (connector
-	(pt 1064 176)
-	(pt 1064 184)
-)
-(connector
-	(pt 1048 208)
-	(pt 1024 208)
-)
-(connector
 	(pt 136 784)
 	(pt 1064 784)
 )
@@ -2362,20 +2355,12 @@ refer to the applicable agreement for further details.
 	(pt 1200 384)
 )
 (connector
-	(pt 1064 240)
-	(pt 1200 240)
-)
-(connector
 	(pt 1200 240)
 	(pt 1208 240)
 )
 (connector
 	(pt 1200 384)
 	(pt 1200 400)
-)
-(connector
-	(pt 1064 232)
-	(pt 1064 240)
 )
 (connector
 	(pt 1064 240)
@@ -2500,14 +2485,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 616 224)
 	(pt 1024 224)
-)
-(connector
-	(pt 1024 208)
-	(pt 1024 224)
-)
-(connector
-	(pt 1024 224)
-	(pt 1024 512)
 )
 (connector
 	(pt 616 352)
@@ -2665,6 +2642,46 @@ refer to the applicable agreement for further details.
 	(pt -112 160)
 	(pt -120 160)
 )
+(connector
+	(pt 1072 240)
+	(pt 1072 232)
+)
+(connector
+	(pt 1064 240)
+	(pt 1072 240)
+)
+(connector
+	(pt 1072 240)
+	(pt 1200 240)
+)
+(connector
+	(pt 1064 136)
+	(pt 1064 152)
+)
+(connector
+	(pt 1064 152)
+	(pt 1080 152)
+)
+(connector
+	(pt 1080 152)
+	(pt 1080 168)
+)
+(connector
+	(pt 1064 168)
+	(pt 1064 160)
+)
+(connector
+	(pt 1024 160)
+	(pt 1024 224)
+)
+(connector
+	(pt 1024 224)
+	(pt 1024 512)
+)
+(connector
+	(pt 1024 160)
+	(pt 1064 160)
+)
 (junction (pt 296 -48))
 (junction (pt 344 -48))
 (junction (pt 712 -128))
@@ -2692,7 +2709,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1200 400))
 (junction (pt 1200 240))
 (junction (pt 1200 416))
-(junction (pt 1064 240))
 (junction (pt 416 496))
 (junction (pt 1024 224))
 (junction (pt 616 320))
@@ -2700,6 +2716,7 @@ refer to the applicable agreement for further details.
 (junction (pt 632 288))
 (junction (pt 632 384))
 (junction (pt 664 472))
+(junction (pt 1072 240))
 (text "Expecting 50 MHz signal," (rect -80 -72 61 -58)(font "Arial" (font_size 8)))
 (text "Horizontal Counter" (rect 416 -96 521 -82)(font "Arial" (font_size 8)))
 (text "Vertical Counter" (rect 376 72 468 86)(font "Arial" (font_size 8)))
