@@ -20,7 +20,7 @@ refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 136 144)
+	(rect 64 64 184 192)
 	(text "counter5bit" (rect 5 0 73 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
@@ -38,39 +38,39 @@ refer to the applicable agreement for further details.
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
-		(pt 120 32)
-		(output)
-		(text "out[1]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
-		(text "out[1]" (rect 63 27 99 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 120 32)(pt 104 32))
-	)
-	(port
 		(pt 120 48)
 		(output)
-		(text "out[2]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
-		(text "out[2]" (rect 63 43 99 62)(font "Intel Clear" (font_size 8)))
+		(text "out[1]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "out[1]" (rect 63 43 99 62)(font "Intel Clear" (font_size 8)))
 		(line (pt 120 48)(pt 104 48))
 	)
 	(port
 		(pt 120 64)
 		(output)
-		(text "out[3]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
-		(text "out[3]" (rect 63 59 99 78)(font "Intel Clear" (font_size 8)))
+		(text "out[2]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "out[2]" (rect 63 59 99 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 120 64)(pt 104 64))
 	)
 	(port
 		(pt 120 80)
 		(output)
-		(text "out[4]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
-		(text "out[4]" (rect 63 75 99 94)(font "Intel Clear" (font_size 8)))
+		(text "out[3]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "out[3]" (rect 63 75 99 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 120 80)(pt 104 80))
 	)
 	(port
 		(pt 120 96)
 		(output)
-		(text "out[0]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
-		(text "out[0]" (rect 63 91 99 110)(font "Intel Clear" (font_size 8)))
+		(text "out[4]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "out[4]" (rect 63 91 99 110)(font "Intel Clear" (font_size 8)))
 		(line (pt 120 96)(pt 104 96))
+	)
+	(port
+		(pt 120 32)
+		(output)
+		(text "out[0]" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "out[0]" (rect 63 27 99 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 120 32)(pt 104 32))
 	)
 	(drawing
 		(rectangle (rect 16 16 104 112))

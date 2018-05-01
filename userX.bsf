@@ -275,6 +275,13 @@ refer to the applicable agreement for further details.
 		(text "row[0]" (rect 173 315 211 334)(font "Intel Clear" (font_size 8)))
 		(line (pt 232 320)(pt 216 320))
 	)
+	(port
+		(pt 232 120)
+		(output)
+		(text "Ready" (rect 181 112 218 131)(font "Intel Clear" (font_size 8)))
+		(text "Ready" (rect 181 112 218 131)(font "Intel Clear" (font_size 8)))
+		(line (pt 232 120)(pt 216 120))
+	)
 	(drawing
 		(rectangle (rect 16 16 216 448))
 	)

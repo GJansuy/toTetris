@@ -1,5 +1,5 @@
 //IP Functional Simulation Model
-//VERSION_BEGIN 17.1 cbx_mgl 2017:12:11:18:07:53:SJ cbx_simgen 2017:12:11:18:05:02:SJ  VERSION_END
+//VERSION_BEGIN 17.1 cbx_mgl 2017:10:25:18:08:29:SJ cbx_simgen 2017:10:25:18:06:53:SJ  VERSION_END
 // synthesis VERILOG_INPUT_VERSION VERILOG_2001
 // altera message_off 10463
 
@@ -226,7 +226,7 @@ module  gameClock
 		gameclock_altera_pll_altera_pll_i_639.n_cnt_odd_div_duty_en = "false",
 		gameclock_altera_pll_altera_pll_i_639.number_of_clocks = 1,
 		gameclock_altera_pll_altera_pll_i_639.operation_mode = "direct",
-		gameclock_altera_pll_altera_pll_i_639.output_clock_frequency0 = "3.125000 MHz",
+		gameclock_altera_pll_altera_pll_i_639.output_clock_frequency0 = "1.171875 MHz",
 		gameclock_altera_pll_altera_pll_i_639.output_clock_frequency1 = "0 MHz",
 		gameclock_altera_pll_altera_pll_i_639.output_clock_frequency10 = "0 MHz",
 		gameclock_altera_pll_altera_pll_i_639.output_clock_frequency11 = "0 MHz",

@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 17.1 593 win32 2018.04.06.02:25:08
+# ACDS 17.1 590 win32 2018.04.30.21:32:55
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -106,7 +106,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 17.1 593 win32 2018.04.06.02:25:08
+# ACDS 17.1 590 win32 2018.04.30.21:32:55
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="testPLL"

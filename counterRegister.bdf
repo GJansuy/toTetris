@@ -23,7 +23,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 112 344 280 360)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[0]" (rect 5 0 27 12)(font "Arial" ))
+	(text "in[0]" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 592 328 760 344)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[1]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[1]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 960 160 1128 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[2]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[2]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 1520 168 1688 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[3]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[3]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 2112 208 2280 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[4]" (rect 5 0 27 17)(font "Intel Clear" ))
+	(text "in[4]" (rect 5 0 26 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 96 544 264 560)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "loadOrCount" (rect 5 0 67 12)(font "Arial" ))
+	(text "loadOrCount" (rect 5 0 66 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,7 +119,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 128 568 296 584)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Clock" (rect 5 0 34 12)(font "Arial" ))
+	(text "Clock" (rect 5 0 33 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -135,7 +135,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 128 584 296 600)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Clear" (rect 5 0 31 17)(font "Intel Clear" ))
+	(text "Clear" (rect 5 0 30 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -685,42 +685,6 @@ refer to the applicable agreement for further details.
 		(line (pt 12 32)(pt 20 40))
 		(circle (rect 28 4 36 12))
 		(circle (rect 28 68 36 76))
-	)
-)
-(symbol
-	(rect 1768 280 1880 368)
-	(text "mux2to1" (rect 13 8 66 27)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 64 24 81)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "in[0]" (rect 0 8 28 27)(font "Intel Clear" (font_size 8)))
-		(text "in[0]" (rect 24 24 52 43)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "in[1]" (rect 0 8 28 27)(font "Intel Clear" (font_size 8)))
-		(text "in[1]" (rect 24 40 52 59)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 80 88)
-		(input)
-		(text "sel" (rect 72 29 91 45)(font "Intel Clear" (font_size 8))(vertical))
-		(text "sel" (rect 64 48 83 64)(font "Intel Clear" (font_size 8))(vertical))
-		(line (pt 80 88)(pt 80 64))
-	)
-	(port
-		(pt 112 32)
-		(output)
-		(text "out" (rect 16 8 34 27)(font "Intel Clear" (font_size 8)))
-		(text "out" (rect 80 16 98 35)(font "Intel Clear" (font_size 8)))
-		(line (pt 112 32)(pt 96 32))
-	)
-	(drawing
-		(rectangle (rect 16 24 96 64))
 	)
 )
 (symbol
@@ -1390,6 +1354,42 @@ refer to the applicable agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
+(symbol
+	(rect 1768 280 1880 368)
+	(text "mux2to1" (rect 13 8 66 27)(font "Intel Clear" (font_size 8)))
+	(text "inst9876543" (rect 8 64 65 81)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in[0]" (rect 0 8 28 27)(font "Intel Clear" (font_size 8)))
+		(text "in[0]" (rect 24 24 52 43)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "in[1]" (rect 0 8 28 27)(font "Intel Clear" (font_size 8)))
+		(text "in[1]" (rect 24 40 52 59)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 80 88)
+		(input)
+		(text "sel" (rect 72 29 91 45)(font "Intel Clear" (font_size 8))(vertical))
+		(text "sel" (rect 64 48 83 64)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 80 88)(pt 80 64))
+	)
+	(port
+		(pt 112 32)
+		(output)
+		(text "out" (rect 16 8 34 27)(font "Intel Clear" (font_size 8)))
+		(text "out" (rect 80 16 98 35)(font "Intel Clear" (font_size 8)))
+		(line (pt 112 32)(pt 96 32))
+	)
+	(drawing
+		(rectangle (rect 16 24 96 64))
+	)
+)
 (connector
 	(pt 408 368)
 	(pt 424 368)
@@ -1782,11 +1782,6 @@ refer to the applicable agreement for further details.
 	(color 0 255 255)
 )
 (connector
-	(pt 1064 336)
-	(pt 1064 392)
-	(color 0 255 255)
-)
-(connector
 	(pt 1624 344)
 	(pt 1504 344)
 	(color 0 255 255)
@@ -2145,6 +2140,18 @@ refer to the applicable agreement for further details.
 	(pt 1904 576)
 	(pt 2520 576)
 )
+(connector
+	(pt 1064 304)
+	(pt 1144 304)
+)
+(connector
+	(pt 1064 304)
+	(pt 1064 336)
+)
+(connector
+	(pt 1064 336)
+	(pt 1064 392)
+)
 (junction (pt 424 576))
 (junction (pt 520 368))
 (junction (pt 376 552))
@@ -2175,3 +2182,4 @@ refer to the applicable agreement for further details.
 (junction (pt 1968 248))
 (junction (pt 1984 232))
 (junction (pt 2192 320))
+(junction (pt 1064 336))

@@ -5,7 +5,7 @@ reg clk_25hz;
 reg [1:0] count;
 always @ (posedge clk_50mhz)
 begin
-	if(count == 1) begin
+	if(count == 24999999) begin
 		count <= 0;
 		$dumpfile("f.vcd");
 		clk_25hz <= ~clk_25hz;

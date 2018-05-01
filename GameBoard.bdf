@@ -12588,30 +12588,6 @@ refer to the applicable agreement for further details.
 	(pt 736 1680)
 )
 (connector
-	(pt 1096 624)
-	(pt 1096 1248)
-)
-(connector
-	(pt 1112 640)
-	(pt 1112 1264)
-)
-(connector
-	(pt 1128 656)
-	(pt 1128 1280)
-)
-(connector
-	(pt 1144 672)
-	(pt 1144 1296)
-)
-(connector
-	(pt 1160 688)
-	(pt 1160 1312)
-)
-(connector
-	(pt 1176 704)
-	(pt 1176 1328)
-)
-(connector
 	(pt 1192 720)
 	(pt 1192 1344)
 )
@@ -12626,30 +12602,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1240 768)
 	(pt 1240 1392)
-)
-(connector
-	(pt 1096 1248)
-	(pt 1096 1792)
-)
-(connector
-	(pt 1112 1264)
-	(pt 1112 1792)
-)
-(connector
-	(pt 1128 1280)
-	(pt 1128 1792)
-)
-(connector
-	(pt 1144 1296)
-	(pt 1144 1792)
-)
-(connector
-	(pt 1160 1312)
-	(pt 1160 1792)
-)
-(connector
-	(pt 1176 1328)
-	(pt 1176 1792)
 )
 (connector
 	(pt 848 2064)
@@ -12786,30 +12738,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 816 2304)
 	(pt 736 2304)
-)
-(connector
-	(pt 1096 1792)
-	(pt 1096 1872)
-)
-(connector
-	(pt 1112 1792)
-	(pt 1112 1888)
-)
-(connector
-	(pt 1128 1792)
-	(pt 1128 1904)
-)
-(connector
-	(pt 1144 1792)
-	(pt 1144 1920)
-)
-(connector
-	(pt 1160 1792)
-	(pt 1160 1936)
-)
-(connector
-	(pt 1176 1792)
-	(pt 1176 1952)
 )
 (connector
 	(pt 1192 1344)
@@ -12966,30 +12894,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 816 2928)
 	(pt 736 2928)
-)
-(connector
-	(pt 1096 1872)
-	(pt 1096 2496)
-)
-(connector
-	(pt 1112 1888)
-	(pt 1112 2512)
-)
-(connector
-	(pt 1128 1904)
-	(pt 1128 2528)
-)
-(connector
-	(pt 1144 1920)
-	(pt 1144 2544)
-)
-(connector
-	(pt 1160 1936)
-	(pt 1160 2560)
-)
-(connector
-	(pt 1176 1952)
-	(pt 1176 2576)
 )
 (connector
 	(pt 1192 1968)
@@ -16900,34 +16804,6 @@ refer to the applicable agreement for further details.
 	(pt 1928 1776)
 )
 (connector
-	(pt 880 1792)
-	(pt 1096 1792)
-)
-(connector
-	(pt 1096 1792)
-	(pt 1112 1792)
-)
-(connector
-	(pt 1112 1792)
-	(pt 1128 1792)
-)
-(connector
-	(pt 1128 1792)
-	(pt 1144 1792)
-)
-(connector
-	(pt 1144 1792)
-	(pt 1160 1792)
-)
-(connector
-	(pt 1160 1792)
-	(pt 1176 1792)
-)
-(connector
-	(pt 1176 1792)
-	(pt 1928 1792)
-)
-(connector
 	(pt 864 1808)
 	(pt 1928 1808)
 )
@@ -19802,6 +19678,82 @@ refer to the applicable agreement for further details.
 	(pt 9040 -1312)
 	(pt 9144 -1312)
 )
+(connector
+	(pt 1096 1872)
+	(pt 1096 2496)
+)
+(connector
+	(pt 1112 1888)
+	(pt 1112 2512)
+)
+(connector
+	(pt 1128 1904)
+	(pt 1128 2528)
+)
+(connector
+	(pt 1144 1920)
+	(pt 1144 2544)
+)
+(connector
+	(pt 1160 1936)
+	(pt 1160 2560)
+)
+(connector
+	(pt 1176 1952)
+	(pt 1176 2576)
+)
+(connector
+	(pt 1096 624)
+	(pt 1096 1248)
+)
+(connector
+	(pt 1096 1248)
+	(pt 1096 1872)
+)
+(connector
+	(pt 1112 640)
+	(pt 1112 1264)
+)
+(connector
+	(pt 1112 1264)
+	(pt 1112 1888)
+)
+(connector
+	(pt 1128 656)
+	(pt 1128 1280)
+)
+(connector
+	(pt 1128 1280)
+	(pt 1128 1904)
+)
+(connector
+	(pt 1144 672)
+	(pt 1144 1296)
+)
+(connector
+	(pt 1144 1296)
+	(pt 1144 1920)
+)
+(connector
+	(pt 1160 688)
+	(pt 1160 1312)
+)
+(connector
+	(pt 1160 1312)
+	(pt 1160 1936)
+)
+(connector
+	(pt 1176 704)
+	(pt 1176 1328)
+)
+(connector
+	(pt 1176 1328)
+	(pt 1176 1952)
+)
+(connector
+	(pt 880 1792)
+	(pt 1928 1792)
+)
 (junction (pt 808 192))
 (junction (pt 1096 -64))
 (junction (pt 1112 -48))
@@ -19827,12 +19779,6 @@ refer to the applicable agreement for further details.
 (junction (pt 752 360))
 (junction (pt 736 368))
 (junction (pt 1096 1248))
-(junction (pt 1096 1792))
-(junction (pt 1112 1792))
-(junction (pt 1128 1792))
-(junction (pt 1144 1792))
-(junction (pt 1160 1792))
-(junction (pt 1176 1792))
 (junction (pt 808 1504))
 (junction (pt 1112 1264))
 (junction (pt 1128 1280))

@@ -59,13 +59,6 @@ refer to the applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
-		(pt 0 112)
-		(input)
-		(text "Enable" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
-		(text "Enable" (rect 21 107 61 126)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 112)(pt 16 112))
-	)
-	(port
 		(pt 0 128)
 		(input)
 		(text "Clock" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))

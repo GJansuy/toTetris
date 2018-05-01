@@ -23,7 +23,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 112 712 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowA[0]" (rect 5 0 42 12)(font "Arial" ))
+	(text "rowA[0]" (rect 5 0 41 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -149,7 +149,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 544 432 712 448)
+	(rect 544 424 712 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "rowA[8]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -183,7 +183,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 128 712 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[0]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[0]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -199,7 +199,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 168 712 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[1]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[1]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -215,7 +215,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 208 712 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[2]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[2]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -231,7 +231,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 248 712 264)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[3]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[3]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -247,7 +247,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 288 712 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[4]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[4]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -263,7 +263,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 328 712 344)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[5]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[5]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -279,7 +279,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 368 712 384)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[6]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[6]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -295,7 +295,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 408 712 424)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[7]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[7]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -309,9 +309,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 544 448 712 464)
+	(rect 544 440 712 456)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[8]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[8]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -327,7 +327,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 544 488 712 504)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rowB[9]" (rect 5 0 43 17)(font "Intel Clear" ))
+	(text "rowB[9]" (rect 5 0 42 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
